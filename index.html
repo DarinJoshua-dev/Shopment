@@ -13,7 +13,12 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
+<<<<<<< HEAD
   <title>Shopment</title>
+=======
+
+  <title>Online Shopping made better</title>
+>>>>>>> ff7d12d649529fb6e2391d8a8340bda9e8274512
 
 
   <!-- bootstrap core css -->
@@ -66,10 +71,16 @@
 }
 
 .front{
-  z-index: 5; 
+  z-index: 1; 
+}
+
+.back{
+  z-index: 10;
+  position: relative;
 }
   </style>
   <script>
+
     // When the user scrolls the page, execute myFunction
 window.onscroll = function() {myFunction()};
 
@@ -93,7 +104,17 @@ function myFunction() {
 
 <body>
 
-  <div class="hero_area">
+  <script class="back"
+src="https://cdn.cai.tools.sap/webchat/webchat.js"
+channelId="437a22e8-411f-4842-aba1-d0444358be13"
+token="6d2178935b7a63d03a5ef6452d00336a"
+id="cai-webchat">
+</script>
+
+<meta name="viewport back" content="width=device-width">
+
+
+  <div class="hero_area front">
     <!-- header section strats -->
     <header class="header_section sticky front">
       <div class="header_top">
@@ -131,7 +152,7 @@ function myFunction() {
 
         </div>
       </div>
-      <div class="header_bottom ">
+      <div class="header_bottom">
         <div class="container-fluid ">
           <nav class="navbar navbar-expand-lg navbar-light">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
