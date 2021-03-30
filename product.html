@@ -13,7 +13,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Minics</title>
+  <title>Shopment</title>
 
 
   <!-- bootstrap core css -->
@@ -31,6 +31,7 @@
   <link href="css/responsive.css" rel="stylesheet" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <style>
     #navbar {
   overflow: hidden;
@@ -68,6 +69,7 @@
   z-index: 5; 
 }
   </style>
+  
   <script>
     // When the user scrolls the page, execute myFunction
 window.onscroll = function() {myFunction()};
@@ -86,6 +88,34 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+  </script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript">
+    google.charts.load('current', {'packages':['corechart']});
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+      var data = google.visualization.arrayToDataTable([
+        ['Day', 'Product 1', 'Product 2'],
+        ['20',  1000,      400],
+        ['40',  870,      460],
+        ['60',  660,       820],
+        ['80',  1030,      540]
+      ]);
+
+      var options = {
+        title: 'Product Price Graph',
+        curveType: 'function',
+        legend: { position: 'bottom' }
+      };
+
+      var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+      chart.draw(data, options);
+    }
+  </script>
+  <script>
+    var coupons=["38WVMY","3SYFAN","WWZ23M","Q4WK51","Q163DD","E0G8RD","BXE3VV","QL54IN","P4GM6Y","QYE966","SQEQDS", "NJOZ32", "V8NS8U","BD71DP","26EKS0","AZXPNZ","K1OAN5","HRLZ1N"]
   </script>
 
 </head>
@@ -468,6 +498,7 @@ function myFunction() {
         </a>
       </div>
     </div>
+    <div id="curve_chart" style="width: 900px; height: 500px; margin-left: auto; margin-right: auto;"></div>
   </section>
 
   <!-- end product section -->
@@ -482,7 +513,7 @@ function myFunction() {
             <h5>
               <a href="" class="navbar-brand">
                 <span>
-                  Minics
+                  Shopment
                 </span>
               </a>
             </h5>
@@ -492,11 +523,11 @@ function myFunction() {
             </p>
             <p>
               <i class="fa fa-phone" aria-hidden="true"></i>
-              +01 1234567890
+              7855678990
             </p>
             <p>
               <i class="fa fa-envelope" aria-hidden="true"></i>
-              demo@gmail.com
+              shopment@gmail.com
             </p>
           </div>
         </div>
@@ -513,7 +544,7 @@ function myFunction() {
         <div class="col-md-3">
           <div class="info_links">
             <h5>
-              Useful Link
+              Links
             </h5>
             <ul>
               <li>
@@ -583,7 +614,7 @@ function myFunction() {
     <div class="container">
       <p>
         &copy; <span id="displayYear"></span> All Rights Reserved By
-        <a href="https://html.design/">Free Html Templates</a>
+        <a href="#">Techno Twosome</a>
       </p>
     </div>
   </footer>
