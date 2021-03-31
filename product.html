@@ -168,7 +168,7 @@ function myFunction() {
             </button>
             <a class="navbar-brand" href="index.html">
               <span>
-                <img id="Produtz_Hunt_cvn" src="images/shopment-logo.png" >
+                <img id="Produtz_Hunt_cvn" src="images/shopments.png" >
               </span>
               <br>
             </a>
@@ -209,7 +209,7 @@ function myFunction() {
               </ul>
               <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <a class="btn btn-outline-success my-2 my-sm-0" href="product.html">Search</a>
               </form>
             </div>
           </nav>
@@ -234,7 +234,7 @@ function myFunction() {
           <div class="box">
             <div class="img-box">
               <img src="images/p1.png" alt="">
-              <a href="" class="add_cart_btn">
+              <a href="Cart.html" class="add_cart_btn">
                 <span>
                   Add To Cart
                 </span>
@@ -263,7 +263,7 @@ function myFunction() {
           <div class="box">
             <div class="img-box">
               <img src="images/p2.png" alt="">
-              <a href="" class="add_cart_btn">
+              <a href="Cart.html" class="add_cart_btn">
                 <span>
                   Add To Cart
                 </span>
@@ -292,7 +292,7 @@ function myFunction() {
           <div class="box">
             <div class="img-box">
               <img src="images/p3.png" alt="">
-              <a href="" class="add_cart_btn">
+              <a href="Cart.html" class="add_cart_btn">
                 <span>
                   Add To Cart
                 </span>
@@ -321,7 +321,7 @@ function myFunction() {
           <div class="box">
             <div class="img-box">
               <img src="images/p4.png" alt="">
-              <a href="" class="add_cart_btn">
+              <a href="Cart.html" class="add_cart_btn">
                 <span>
                   Add To Cart
                 </span>
@@ -350,7 +350,7 @@ function myFunction() {
           <div class="box">
             <div class="img-box">
               <img src="images/p5.png" alt="">
-              <a href="" class="add_cart_btn">
+              <a href="Cart.html" class="add_cart_btn">
                 <span>
                   Add To Cart
                 </span>
@@ -379,7 +379,7 @@ function myFunction() {
           <div class="box">
             <div class="img-box">
               <img src="images/p6.png" alt="">
-              <a href="" class="add_cart_btn">
+              <a href="Cart.html" class="add_cart_btn">
                 <span>
                   Add To Cart
                 </span>
@@ -408,7 +408,7 @@ function myFunction() {
           <div class="box">
             <div class="img-box">
               <img src="images/p7.png" alt="">
-              <a href="" class="add_cart_btn">
+              <a href="Cart.html" class="add_cart_btn">
                 <span>
                   Add To Cart
                 </span>
@@ -437,7 +437,7 @@ function myFunction() {
           <div class="box">
             <div class="img-box">
               <img src="images/p8.png" alt="">
-              <a href="" class="add_cart_btn">
+              <a href="Cart.html" class="add_cart_btn">
                 <span>
                   Add To Cart
                 </span>
@@ -466,7 +466,7 @@ function myFunction() {
           <div class="box">
             <div class="img-box">
               <img src="images/p9.png" alt="">
-              <a href="" class="add_cart_btn">
+              <a href="Cart.html" class="add_cart_btn">
                 <span>
                   Add To Cart
                 </span>
@@ -619,7 +619,19 @@ function myFunction() {
     </div>
   </footer>
   <!-- footer section -->
-
+  <script>
+    window.watsonAssistantChatOptions = {
+        integrationID: "e86f80da-104d-4478-8da6-f8e290ff50dc", // The ID of this integration.
+        region: "eu-gb", // The region your integration is hosted in.
+        serviceInstanceID: "69991b67-d029-4970-8241-665c01a1540c", // The ID of your service instance.
+        onLoad: function(instance) { instance.render(); }
+      };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+      document.head.appendChild(t);
+    });
+  </script>
   <!-- jQery -->
   <script src="js/jquery-3.4.1.min.js"></script>
   <!-- bootstrap js -->

@@ -13,12 +13,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-<<<<<<< HEAD
   <title>Shopment</title>
-=======
-
-  <title>Online Shopping made better</title>
->>>>>>> ff7d12d649529fb6e2391d8a8340bda9e8274512
 
 
   <!-- bootstrap core css -->
@@ -71,7 +66,11 @@
 }
 
 .front{
-  z-index: 1; 
+  z-index: 4; 
+}
+
+.front-check{
+  z-index: -99;
 }
 
 .back{
@@ -104,17 +103,12 @@ function myFunction() {
 
 <body>
 
-  <script class="back"
-src="https://cdn.cai.tools.sap/webchat/webchat.js"
-channelId="437a22e8-411f-4842-aba1-d0444358be13"
-token="6d2178935b7a63d03a5ef6452d00336a"
-id="cai-webchat">
-</script>
+
 
 <meta name="viewport back" content="width=device-width">
 
 
-  <div class="hero_area front">
+  <div class="hero_area">
     <!-- header section strats -->
     <header class="header_section sticky front">
       <div class="header_top">
@@ -160,7 +154,7 @@ id="cai-webchat">
             </button>
             <a class="navbar-brand" href="index.html">
               <span>
-                <img id="Produtz_Hunt_cvn" src="images/shopment-logo.png" >
+                <img id="Produtz_Hunt_cvn" src="images/shopments.png" >
               </span>
               <br>
             </a>
@@ -201,7 +195,7 @@ id="cai-webchat">
               </ul>
               <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <a class="btn btn-outline-success my-2 my-sm-0" href="product.html">Search</a>
               </form>
             </div>
           </nav>
@@ -304,7 +298,7 @@ id="cai-webchat">
 
   <!-- product section -->
 
-  <section class="product_section layout_padding">
+  <section class="product_section layout_padding front-check">
     <div class="container">
       <div class="heading_container heading_center">
         <h2>
@@ -316,7 +310,7 @@ id="cai-webchat">
           <div class="box">
             <div class="img-box">
               <img src="images/p1.png" alt="">
-              <a href="" class="add_cart_btn">
+              <a href="Cart.html" class="add_cart_btn">
                 <span>
                   Add To Cart
                 </span>
@@ -345,7 +339,7 @@ id="cai-webchat">
           <div class="box">
             <div class="img-box">
               <img src="images/p2.png" alt="">
-              <a href="" class="add_cart_btn">
+              <a href="Cart.html" class="add_cart_btn">
                 <span>
                   Add To Cart
                 </span>
@@ -374,7 +368,7 @@ id="cai-webchat">
           <div class="box">
             <div class="img-box">
               <img src="images/p3.png" alt="">
-              <a href="" class="add_cart_btn">
+              <a href="Cart.html" class="add_cart_btn">
                 <span>
                   Add To Cart
                 </span>
@@ -403,7 +397,7 @@ id="cai-webchat">
           <div class="box">
             <div class="img-box">
               <img src="images/p4.png" alt="">
-              <a href="" class="add_cart_btn">
+              <a href="Cart.html" class="add_cart_btn">
                 <span>
                   Add To Cart
                 </span>
@@ -432,7 +426,7 @@ id="cai-webchat">
           <div class="box">
             <div class="img-box">
               <img src="images/p5.png" alt="">
-              <a href="" class="add_cart_btn">
+              <a href="Cart.html" class="add_cart_btn">
                 <span>
                   Add To Cart
                 </span>
@@ -461,7 +455,7 @@ id="cai-webchat">
           <div class="box">
             <div class="img-box">
               <img src="images/p6.png" alt="">
-              <a href="" class="add_cart_btn">
+              <a href="Cart.html" class="add_cart_btn">
                 <span>
                   Add To Cart
                 </span>
@@ -490,7 +484,7 @@ id="cai-webchat">
           <div class="box">
             <div class="img-box">
               <img src="images/p7.png" alt="">
-              <a href="" class="add_cart_btn">
+              <a href="Cart.html" class="add_cart_btn">
                 <span>
                   Add To Cart
                 </span>
@@ -519,7 +513,7 @@ id="cai-webchat">
           <div class="box">
             <div class="img-box">
               <img src="images/p8.png" alt="">
-              <a href="" class="add_cart_btn">
+              <a href="Cart.html" class="add_cart_btn">
                 <span>
                   Add To Cart
                 </span>
@@ -548,7 +542,7 @@ id="cai-webchat">
           <div class="box">
             <div class="img-box">
               <img src="images/p9.png" alt="">
-              <a href="" class="add_cart_btn">
+              <a href="Cart.html" class="add_cart_btn">
                 <span>
                   Add To Cart
                 </span>
@@ -922,6 +916,19 @@ id="cai-webchat">
     </div>
   </footer>
   <!-- footer section -->
+  <script>
+    window.watsonAssistantChatOptions = {
+        integrationID: "e86f80da-104d-4478-8da6-f8e290ff50dc", // The ID of this integration.
+        region: "eu-gb", // The region your integration is hosted in.
+        serviceInstanceID: "69991b67-d029-4970-8241-665c01a1540c", // The ID of your service instance.
+        onLoad: function(instance) { instance.render(); }
+      };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+      document.head.appendChild(t);
+    });
+  </script>
 
   <!-- jQery -->
   <script src="js/jquery-3.4.1.min.js"></script>
