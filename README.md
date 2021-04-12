@@ -2,11 +2,15 @@
 
 ### Shopment is a unified eCommerce site with conversational AI and related other features
 
-Shopment uses a unified approach to make conversational AI a part of the User/Customer Experience created using IBM Watson Assistant
+Shopment has an intuitive UI which uses an unified approach to make conversational AI a part of the User/Customer Experience created using IBM Watson Assistant
 
-Project Prototype Demo: <a href="https://shopment.herokuapp.com/"><img src="https://img.shields.io/badge/Deployment-view%20now-blue"></a>
+## Project Prototype Demo:  
 
-<a href="#"><img src="https://img.shields.io/badge/Contributors-2-brightgreen"></a>
+<a href="https://shopment.herokuapp.com/"><img src="https://img.shields.io/badge/Deployment-view%20now-blue"></a>
+
+## Contributors:
+
+<img src="https://img.shields.io/badge/Contributors-2-brightgreen">
 
 <ul><li><a href="https://github.com/DarinJoshua-dev">Darin Joshua D</a>
 
