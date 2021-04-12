@@ -1,6 +1,6 @@
 # Shopment
 
-### Shopment is a unified eCommerce prototype site with conversational AI & related other integrated features
+### Shopment is a unified eCommerce prototype site with conversational AI & related other integrated features to enhance customer experience
 
 Shopment has an intuitive UI which uses an unified approach to make conversational AI a part of the User/Customer Experience created using IBM Watson Assistant
 
