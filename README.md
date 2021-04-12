@@ -6,7 +6,13 @@ Shopment has an intuitive UI which uses an unified approach to make conversation
 
 ## Project Prototype Demo:  
 
-<a href="https://shopment.herokuapp.com/"><img src="https://img.shields.io/badge/Deployment-view%20now-blue"></a>
+<a href="https://shopment.herokuapp.com/"><img src="https://img.shields.io/badge/Prototype%20Deployment-view%20now-blue"></a>
+
+<img src="https://github.com/DarinJoshua-dev/Shopment/blob/master/pics/homescreen.png">
+
+<img src="https://github.com/DarinJoshua-dev/Shopment/blob/master/pics/convAI.png">
+
+<img src="https://github.com/DarinJoshua-dev/Shopment/blob/master/pics/productscreen.png">
 
 ## Contributors:
 
